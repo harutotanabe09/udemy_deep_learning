@@ -1,0 +1,17 @@
+import matplotlib.pyplot as plt
+import  numpy as np
+# 指数関数の描画
+# 指数関数の特徴：伸び率がすごい
+x = np.arange(-5,10,0.1);
+# y = 2 ^ x
+y_2 = 2 ** x
+
+# y = 3 ^ x
+y_3 = 3 ** x
+
+print(x)
+print(y_2)
+
+plt.plot(x,y_2)
+plt.plot(x,y_3)
+plt.show()
